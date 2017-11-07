@@ -54,3 +54,11 @@ p{
   text-align: center;
   font-size: 20px;
 }
+#announce{
+  width: auto;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+}
