@@ -4,12 +4,22 @@ body{
 
 /* buttons */
 .buttons a{
+  font-size: 20px;
   color: black;
   text-decoration: none;
   border: 1px;
   border-style: solid;
   border-color: black;
   padding: 5px;
+}
+
+#questions_button{
+  float: right;
+}
+
+.buttons a:hover{
+  background-color: white; /*will change color later */
+  opacity: 0.8;
 }
 
 /* title */
