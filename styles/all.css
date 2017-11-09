@@ -11,6 +11,12 @@ canvas {
 }
 
 /* buttons */
+.menubar .buttons{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
 .buttons a{
   font-size: 20px;
   color: black;
@@ -21,10 +27,16 @@ canvas {
   padding: 5px;
 }
 
-#home_button{
-  margin: 3%;
+/*#home_button{
+  padding-left: 5%;
+  margin: 5%;
   float: right;
 }
+
+#facebook_button{
+  margin: 5%;
+  float: right;
+}*/
 
 .buttons a:hover{
   background-color: white; /*will change color later */
@@ -60,6 +72,11 @@ p{
   background-color: rgb(245, 255, 241); /* change later */
   overflow: auto;
   padding-left: 5%;
+}
+
+#section3{
+  overflow: auto;
+  padding-left: 5%;
   margin-bottom: 3%;
 }
 
@@ -86,6 +103,17 @@ p{
 }
 
 #tree{
+  width: 100%;
+}
+
+.image3{
+  display: inline-block;
+  float: left;
+  width: 25%;
+  padding-bottom: 0px;
+}
+
+#c3logo{
   width: 100%;
 }
 
@@ -121,9 +149,9 @@ p{
   font-weight: 400;
 }
 
-/* sign up page */ 
+/* sign up page */
 
-#sign_up{
+.sign_up{
   width: auto;
   margin-left: auto;
   margin-right: auto;
